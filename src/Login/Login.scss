@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    height: 100%;
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        flex-grow: 1
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .container {
+        box-sizing: border-box;
+        flex-shrink: 0;
+        padding: 30px;
+        background-color: var(--white);
+        width: 100%;
+        min-height: calc(100vh - 200px);
+        height: fit-content;
+        border-radius: 50px 50px 0 0;
+
+        .title{
+            color: var(--primary-color);
+            font-family: var(--font-family-primary);
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+}
