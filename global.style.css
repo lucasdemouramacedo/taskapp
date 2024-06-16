@@ -1,0 +1,17 @@
+:root {
+    --primary-color: rgb(89, 84, 163);
+    --secondary-color: rgba(89, 84, 163, 0.85);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(232, 231, 255);
+    --grey-2: rgb(81, 81, 81);
+    --font-size: 16px;
+    --font-family-primary: "Montserrat", sans-serif;
+    --font-family-secondary: "Roboto", sans-serif;
+}
+
+.dark-mode:root {
+    --primary-color: rgb(84, 163, 108);
+    --secondary-color: rgba(89, 84, 163, 0.85);
+    --font-size: 16px;
+    --font-family: 'Arial, sans-serif';
+}
