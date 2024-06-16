@@ -1,0 +1,31 @@
+.input {
+    margin: 5px 0;
+}
+
+label {
+    font-weight: 800;
+    color: var(--grey-2);
+}
+
+.input > input{
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 15px;
+    border: 0;
+    background-color: var(--grey);
+    height: 55px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    color: var(--grey-2);
+    font-weight: 500;
+}
+
+.input:focus{
+    border: 3px solid var(--primary-color);
+}
+
+.error{
+    height: 20px;
+}
+
