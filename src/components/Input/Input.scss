@@ -2,7 +2,9 @@
     margin: 5px 0;
 }
 
-label {
+.label {
+    width: 100%;
+    text-align: left;
     font-weight: 800;
     color: var(--grey-2);
 }
@@ -14,7 +16,7 @@ label {
     border: 0;
     background-color: var(--grey);
     height: 55px;
-    border-radius: 10px;
+    border-radius: 15px;
     outline: none;
     font-size: 20px;
     color: var(--grey-2);
@@ -28,4 +30,3 @@ label {
 .error{
     height: 20px;
 }
-
