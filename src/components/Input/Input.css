@@ -3,6 +3,7 @@
 }
 
 .label {
+  font-size: 15px;
   width: 100%;
   text-align: left;
   font-weight: 800;
@@ -15,7 +16,7 @@
   padding-left: 15px;
   border: 0;
   background-color: var(--grey);
-  height: 55px;
+  height: 50px;
   border-radius: 15px;
   outline: none;
   font-size: 20px;
@@ -23,7 +24,7 @@
   font-weight: 500;
 }
 
-.input:focus {
+.input > input:focus {
   border: 3px solid var(--primary-color);
 }
 
