@@ -1,0 +1,96 @@
+main {
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+}
+main .logo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  flex-grow: 1;
+}
+main .logo {
+  width: 200px;
+}
+main .logo:hover {
+  filter: drop-shadow(0 0 2em rgba(255, 255, 255, 0.1568627451));
+}
+main .container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 30px;
+  background-color: var(--white);
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 50px 50px 0 0;
+}
+main .container .title {
+  color: var(--primary-color);
+  font-family: var(--font-family-primary);
+  text-align: center;
+  margin: 30px;
+  font-weight: 600;
+}
+main .container .forgot-password {
+  color: var(--grey-2);
+  font-weight: 400;
+  font-size: 17px;
+  width: 100%;
+  text-align: right;
+}
+main .container .sign-up {
+  color: var(--grey-2);
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+main .container .sign-up a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+main .circle {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media (min-width: 769px) {
+  main {
+    padding: 0 50px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+  main .logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    flex-grow: 1;
+  }
+  main .logo {
+    width: 300px;
+    height: 100%;
+  }
+  main .container {
+    width: 45%;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    border-radius: 50px;
+  }
+}/*# sourceMappingURL=Register.css.map */
