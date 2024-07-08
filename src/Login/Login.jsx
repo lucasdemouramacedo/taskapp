@@ -2,6 +2,7 @@ import './Login.css'
 import Logo from '.././assets/taskapp.svg';
 import Input from '../components/Input/Input.jsx';
 import Button from '../components/Button/Button.jsx';
+import { Link } from 'react-router-dom';
 
 function Login() {
 
@@ -16,7 +17,7 @@ function Login() {
       ];
 
     return (
-        <main>
+        <div className='main'>
             <div className='logo-container'>
                 <img className='logo' src={Logo} />
             </div>
@@ -29,7 +30,7 @@ function Login() {
                 </div>
                 <Button label="Entrar"></Button>
                 <div className='sign-up'>
-                    <span>Ainda não tem uma conta?</span> <a>Cadastre-se</a>
+                    <span>Ainda não tem uma conta?</span> <Link className='link' to="/register">Cadastre-se</Link>
                 </div>
             </div>
             {circles.map((circle, index) => (
@@ -44,7 +45,7 @@ function Login() {
                     }}
                 />
             ))}
-        </main>
+        </div>
     )
 }
 

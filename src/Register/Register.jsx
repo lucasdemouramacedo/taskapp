@@ -2,6 +2,7 @@ import './Register.css'
 import Logo from '.././assets/taskapp.svg';
 import Input from '../components/Input/Input.jsx';
 import Button from '../components/Button/Button.jsx';
+import { Link } from 'react-router-dom';
 
 function Register() {
 
@@ -16,7 +17,7 @@ function Register() {
       ];
 
     return (
-        <main>
+        <div className='main'>
             <div className='logo-container'>
                 <img className='logo' src={Logo} />
             </div>
@@ -27,7 +28,7 @@ function Register() {
                 <Input type="password" label="Comfirme sua senha"></Input>
                 <Button label="Entrar"></Button>
                 <div className='sign-up'>
-                    <span>Já possui uma conta?</span> <a>Entre</a>
+                    <span>Já possui uma conta?</span> <Link className='link' to="/login">Entre</Link>
                 </div>
             </div>
             {circles.map((circle, index) => (
@@ -42,7 +43,7 @@ function Register() {
                     }}
                 />
             ))}
-        </main>
+        </div>
     )
 }
 
