@@ -9,4 +9,26 @@ button {
   font-weight: 600;
   padding: 0 20px;
   margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+  position: relative;
+  text-align: center; /* Safari */
+  transition-duration: 0.4s;
+}
+button:after {
+  content: "";
+  position: absolute;
+  background: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  width: 30%;
+  height: 70px;
+  opacity: 0;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+button:active:after {
+  width: 120%;
+  opacity: 1;
+  transition: 0.1s;
 }/*# sourceMappingURL=Button.css.map */
