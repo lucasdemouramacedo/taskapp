@@ -1,8 +1,8 @@
-import './Button.css'
+import style from './Button.module.css'
 
 function Button(props){
     return(
-        <button>{props.label}</button>
+        <button className={style.button}>{props.label}</button>
     );
 }
 
