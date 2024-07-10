@@ -2,7 +2,7 @@
   height: 100%;
   box-sizing: border-box;
 }
-.main .logo-container {
+.main .logoContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,21 +35,14 @@
   margin: 0 0 15px 0;
   font-weight: 600;
 }
-.main .container .forgot-password {
-  color: var(--grey-2);
-  font-weight: 400;
-  font-size: 17px;
-  width: 100%;
-  text-align: right;
-}
-.main .container .sign-up {
+.main .container .signIn {
   color: var(--grey-2);
   font-size: 16px;
   width: 100%;
   text-align: center;
   margin: 30px 0 0 0;
 }
-.main .container .sign-up .link {
+.main .container .signIn .link {
   color: var(--primary-color);
   font-weight: 600;
   text-decoration: none;
@@ -70,7 +63,7 @@
     display: flex;
     align-items: center;
   }
-  .main .logo-container {
+  .main .logoContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -93,4 +86,4 @@
     min-height: fit-content;
     border-radius: 50px;
   }
-}/*# sourceMappingURL=Register.css.map */
+}/*# sourceMappingURL=Register.module.css.map */

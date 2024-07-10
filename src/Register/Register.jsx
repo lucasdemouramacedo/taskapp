@@ -1,4 +1,4 @@
-import './Register.css'
+import style from './Register.module.css'
 import Logo from '.././assets/taskapp.svg';
 import Input from '../components/Input/Input.jsx';
 import Button from '../components/Button/Button.jsx';
@@ -17,23 +17,23 @@ function Register() {
       ];
 
     return (
-        <div className='main'>
-            <div className='logo-container'>
-                <img className='logo' src={Logo} />
+        <div className={style.main}>
+            <div className={style.logoContainer}>
+                <img className={style.logo} src={Logo} />
             </div>
-            <div className='container'>
-                <h2 className='title'>Cadastre sua conta</h2>
+            <div className={style.container}>
+                <h2 className={style.title}>Cadastre sua conta</h2>
                 <Input type="text" label="Email"></Input>
                 <Input type="password" label="Senha"></Input>
                 <Input type="password" label="Comfirme sua senha"></Input>
                 <Button label="Entrar"></Button>
-                <div className='sign-up'>
-                    <span>Já possui uma conta?</span> <Link className='link' to="/login">Entre</Link>
+                <div className={style.signIn}>
+                    <span>Já possui uma conta?</span> <Link className={style.link} to="/login">Entre</Link>
                 </div>
             </div>
             {circles.map((circle, index) => (
                 <div
-                    className='circle'
+                    className={style.circle}
                     key={index}
                     style={{
                         width: circle.width,
