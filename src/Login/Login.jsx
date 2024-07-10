@@ -26,7 +26,7 @@ function Login() {
                 <Input type="text" label="Email"></Input>
                 <Input type="password" label="Senha"></Input>
                 <div className={style.forgotPassword}>
-                    <a>Esqueceu sua senha?</a>
+                    <Link className={style.link} to="/register">Esqueceu sua senha?</Link>
                 </div>
                 <Button label="Entrar"></Button>
                 <div className={style.signUp}>

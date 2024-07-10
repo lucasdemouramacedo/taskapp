@@ -28,7 +28,8 @@ function Register() {
                 <Input type="password" label="Comfirme sua senha"></Input>
                 <Button label="Criar conta"></Button>
                 <div className={style.signIn}>
-                    <span>Já possui uma conta?</span> <Link className={style.link} to="/login">Entre</Link>
+                    <span>Já possui uma conta?</span>
+                    <Link className={style.link} to="/login"> Entre</Link>
                 </div>
             </div>
             {circles.map((circle, index) => (
