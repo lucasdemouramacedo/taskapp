@@ -1,11 +1,11 @@
-import './Input.css'
+import style from './Input.module.css'
 
 function Input(props){
     return (
-        <div  className="input">
-            <p className='label'>{props.label}</p>
-            <input type={props.type ? props.type : "text"} />
-            <p className="error">{props.error}</p>
+        <div className={style.field}>
+            <p className={style.label}>{props.label}</p>
+            <input className={style.input} type={props.type ? props.type : "text"} />
+            <p className={style.error}>{props.error}</p>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-.input {
+.field {
     margin: 5px 0;
 }
 
@@ -10,7 +10,7 @@
     color: var(--grey-2);
 }
 
-.input > input{
+.input{
     box-sizing: border-box;
     width: 100%;
     padding-left: 15px;
@@ -24,7 +24,7 @@
     font-weight: 500;
 }
 
-.input > input:focus{
+.input:focus{
     border: 3px solid var(--primary-color);
 }
 
