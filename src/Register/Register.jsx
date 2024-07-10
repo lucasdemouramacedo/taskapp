@@ -22,11 +22,11 @@ function Register() {
                 <img className={style.logo} src={Logo} />
             </div>
             <div className={style.container}>
-                <h2 className={style.title}>Cadastre sua conta</h2>
+                <h2 className={style.title}>Crie sua conta</h2>
                 <Input type="text" label="Email"></Input>
                 <Input type="password" label="Senha"></Input>
                 <Input type="password" label="Comfirme sua senha"></Input>
-                <Button label="Entrar"></Button>
+                <Button label="Criar conta"></Button>
                 <div className={style.signIn}>
                     <span>Já possui uma conta?</span> <Link className={style.link} to="/login">Entre</Link>
                 </div>
