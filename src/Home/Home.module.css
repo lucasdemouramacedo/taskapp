@@ -1,1 +1,42 @@
-/*# sourceMappingURL=Home.module.css.map */
+.main {
+  height: 100%;
+  box-sizing: border-box;
+}
+.main .header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+.main .container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 25px 0;
+  background-color: var(--white);
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 25px 25px 0 0;
+}
+.main .icon {
+  color: var(--white);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 20px;
+}
+.main .icon:nth-of-type(2) {
+  justify-self: end;
+}
+.main .info {
+  font-family: var(--font-family-primary);
+  color: var(--white);
+  margin: 20px 0 5px 0;
+}
+.main .info .date {
+  font-weight: 700;
+  font-size: 24px;
+}
+.main .info .qttTasks {
+  font-weight: 300;
+  font-size: 15px;
+}/*# sourceMappingURL=Home.module.css.map */
