@@ -1,0 +1,36 @@
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icon {
+    color: var(--white);
+    height: fit-content;
+    width: 25px;
+
+    &:nth-of-type(2) {
+        justify-self: end;
+    }
+}
+
+.info {
+    font-family: var(--font-family-primary);
+    color: var(--white);
+    margin: 22px 0 5px 0;
+
+    .date {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .qttTasks {
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+.newTask {
+    margin: 20px 0 0 0;
+}
