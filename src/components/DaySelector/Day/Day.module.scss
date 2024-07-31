@@ -1,0 +1,46 @@
+.day {
+    height: 100%;
+    border-radius: 16px;
+    list-style: none;
+    padding: 10px 9px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: var(--font-family-primary);
+    position: relative;
+
+    .dayNumber {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        color: var(--white);
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        font-size: 13px;
+        font-weight: 500;
+        z-index: 1;
+    }
+
+    .weekDay {
+        width: 35px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--grey-2);
+    }
+}
+
+.day::after {
+    content: '';
+    position: absolute;
+    background-color: var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 30px;
+}
