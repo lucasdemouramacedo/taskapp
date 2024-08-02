@@ -44,3 +44,22 @@
     border-radius: 50%;
     top: 30px;
 }
+
+.month {
+    height: fit-content;
+    border-radius: 12px 0 0 12px;
+    list-style: none;
+    padding: 10px 6px 10px 10px;
+    margin: auto -5px auto 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: var(--font-family-primary);
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-size: 12px;
+    position: sticky;
+}
