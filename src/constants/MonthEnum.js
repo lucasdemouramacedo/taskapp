@@ -1,4 +1,4 @@
-class Month {
+class MonthEnum {
     static months = [
         'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
         'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
@@ -32,4 +32,4 @@ class Month {
     }
 }
 
-export default Month
+export default MonthEnum
