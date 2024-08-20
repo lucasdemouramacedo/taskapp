@@ -1,0 +1,40 @@
+.task {
+    list-style: none;
+    background-color: var(--grey);
+    margin: 0 0 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: end;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.info {
+    margin-left: 15px;
+}
+
+.title {
+    font-family: var(--font-family-secondary);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--grey-2);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 150px;
+    margin: 0;
+}
+
+.time {
+    margin-top: 5px;
+    font-family: var(--font-family-secondary);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--grey-2);
+}
