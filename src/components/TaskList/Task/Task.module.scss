@@ -8,7 +8,6 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
-    justify-items: end;
 }
 .container {
     display: flex;
@@ -37,4 +36,9 @@
     font-size: 10px;
     font-weight: 500;
     color: var(--grey-2);
+}
+
+.splitButton {
+    display: flex;
+    justify-content: end;
 }

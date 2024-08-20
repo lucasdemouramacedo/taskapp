@@ -38,7 +38,7 @@ function SplitButton() {
     }, []);
 
     return (
-        <div ref={dropdownRef}>
+        <div ref={dropdownRef} className={style.splitButton}>
             <div onClick={handleClick} className={style.icon}>
                 <BsThreeDotsVertical />
             </div>

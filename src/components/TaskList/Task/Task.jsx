@@ -14,7 +14,9 @@ function Task(props) {
                     }
                 </div>
             </div>
-            <SplitButton />
+            <div className={style.splitButton}>
+                <SplitButton />
+            </div>
         </li>
     )
 }
