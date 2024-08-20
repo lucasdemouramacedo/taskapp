@@ -3,7 +3,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   behavior: smooth;
 }
 .slider .sentinel {
