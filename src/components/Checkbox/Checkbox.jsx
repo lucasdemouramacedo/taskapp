@@ -18,7 +18,13 @@ function Checkbox() {
                 className={style.icon}
                 style={{ color: state ? 'var(--white)' : 'var(--grey)' }}
             />
-            <input name="check" id="check" type="checkbox" checked={state} />
+            <input 
+                name="check" 
+                id="check" 
+                type="checkbox" 
+                checked={state}  
+                readOnly 
+            />
         </div>
     )
 }

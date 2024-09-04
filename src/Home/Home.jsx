@@ -10,7 +10,6 @@ function Home() {
         <div className={style.main}>
             <Header today={today} />
             <div className={style.container}>
-                <DaySelector today={today} setToday={setToday} />
                 <TaskList />
             </div>
         </div>
